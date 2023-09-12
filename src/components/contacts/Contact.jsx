@@ -56,11 +56,7 @@ const Contact = () => {
         <div className="w-full h-auto block md:block lg:flex md:justify-between">
           <ContactLeft />
           <div className="w-full md:w-full lg:w-[60%] h-full rounded-lg flex flex-col gap-8 mt-8 py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 shadow-shadowOne">
-            <form
-              action="https://formspree.io/f/xleylrzo"
-              method="post"
-              className="w-full flex flex-col gap-6 py-2"
-            >
+            <form className="w-full flex flex-col gap-6 py-2">
               {errMsg && (
                 <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
                   {errMsg}
@@ -79,7 +75,6 @@ const Contact = () => {
                   <input
                     onChange={(e) => setUsername(e.target.value)}
                     value={username}
-                    name="name"
                     className={`${
                       errMsg === "Please enter your name" &&
                       "outline-designColor"
@@ -94,7 +89,6 @@ const Contact = () => {
                   <input
                     onChange={(e) => setPhoneNumber(e.target.value)}
                     value={phoneNumber}
-                    name="number"
                     className={`${
                       errMsg === "Phone number is required" &&
                       "outline-designColor"
@@ -115,7 +109,6 @@ const Contact = () => {
                     "outline-designColor"
                   } contactInput`}
                   type="email"
-                  name="email"
                 />
               </div>
               <div className="flex flex-col gap-4">
@@ -129,7 +122,6 @@ const Contact = () => {
                     errMsg === "Please give a subject!" && "outline-designColor"
                   } contactInput`}
                   type="text"
-                  name="subject"
                 />
               </div>
               <div className="flex flex-col gap-4">
@@ -145,7 +137,6 @@ const Contact = () => {
                     errMsg === "Message is required" && "outline-designColor"
                   } contactTextArea`}
                   type="text"
-                  name="message"
                 />
               </div>
               <div>
