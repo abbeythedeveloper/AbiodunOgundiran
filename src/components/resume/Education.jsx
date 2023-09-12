@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import ResumeCard from "./ResumeCard";
 import { motion } from "framer-motion";
@@ -42,16 +43,10 @@ const Education = () => {
         </div>
         <div className="mt-4 md:mt-14 lg:mt-8 w-full  h-[600px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Freelance project"
-            subTitle="Bigwavemediaconcept's web page"
+            title="Certificate of completion"
+            subTitle="EkoBits Academy"
             result="4.5/5"
-            des="Built "
-          />
-          <ResumeCard
-            title="Secondary School Education"
-            subTitle="Babcock University High School (2019 - 2021)"
-            result="4.5/5"
-            des="Secondary education or post-primary education covers two phases on the international standard classification of the Educational scale."
+            des="A certificate for completing the one year full stack web development course "
           />
         </div>
       </div>
