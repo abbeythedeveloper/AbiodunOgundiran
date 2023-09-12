@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import React, { useState } from "react";
-import Title from "../layous/Title";
+import Heading from "../Layous/Heading";
 import ContactLeft from "./ContactLeft";
 
 const Contact = () => {
@@ -50,7 +50,7 @@ const Contact = () => {
       className="w-full py-14 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title title="Leave a message" des="Contact" />
+        <Heading title="Leave a message" des="Contact" />
       </div>
       <div className="w-full">
         <div className="w-full h-auto block md:block lg:flex md:justify-between">

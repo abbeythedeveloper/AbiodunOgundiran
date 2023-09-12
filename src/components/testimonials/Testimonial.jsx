@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
-import Title from "../layous/Title";
 import { RiStarFill } from "react-icons/ri";
 import Slider from "react-slick";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
@@ -11,6 +10,7 @@ import {
   quote,
   testimonialTwo,
 } from "../../assets/drive-download-20230816T084448Z-001";
+import Heading from "../Layous/Heading";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -99,7 +99,7 @@ const Testimonial = () => {
       className="w-full py-14 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title title="Client Reviews" des="Testimonials" />
+        <Heading title="Client Reviews" des="Testimonials" />
       </div>
       <div className="max-w-6xl mx-auto">
         <Slider {...settings}>

@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 
-const Title = ({ title, des }) => {
+const Heading = ({ title, des }) => {
   return (
     <div className=" font-titleFont flex flex-col gap-4 mb-14">
       <h3 className="text-md uppercase font-medium text-designColor tracking-wide">
@@ -13,4 +13,4 @@ const Title = ({ title, des }) => {
   );
 };
 
-export default Title;
+export default Heading;

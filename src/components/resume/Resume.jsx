@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import React, { useState } from "react";
-import Title from "../layous/Title";
 import Education from "./Education";
 import Skills from "./Skills";
 import Experience from "./Experience";
 import Achievements from "./Achievements";
 import { motion, spring } from "framer-motion";
+import Heading from "../Layous/Heading";
 
 const Resume = () => {
   const [educationData, setEducationData] = useState(true);
@@ -15,19 +15,11 @@ const Resume = () => {
   const [achievementData, setAchievementData] = useState(false);
   return (
     <motion.section
-      initial={{ opacity: 0, x: "100%" }}
-      whileInView={{ opacity: 1, x: 0 }}
-      transition={{
-        duration: 2,
-        type: "spring",
-        stiffness: 100,
-        x: { duration: 1 },
-      }}
       id="resume"
       className="w-full py-14 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title title="3+ Years of Experience" des="My Resume" />
+        <Heading title="3+ Years of Experience" des="My Resume" />
       </div>
       <div>
         <ul className="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4">
