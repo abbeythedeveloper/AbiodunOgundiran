@@ -48,7 +48,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 px-5 md:px-14 fixed top-0 justify-between items-center navbar bg-bodyColor  backdrop-filter backdrop-blur-md bg-opacity-50 z-20 ">
       <img src={logo} alt="Logo image" srcSet="" className="w-[124px] h-auto" />
-      <ul className="list-none lg:flex md:hidden sm:flex md:flex hidden justify-end items-center flex-1">
+      <ul className="list-none lg:flex sm:flex md:flex hidden justify-end items-center flex-1">
         {navLinksdata.map((nav, index) => (
           <li
             key={nav.id}
