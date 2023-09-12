@@ -5,7 +5,6 @@ import { AiFillAppstore } from "react-icons/ai";
 import { FaObjectGroup, FaGlobe, FaCode, FaVideo } from "react-icons/fa";
 import { SiAntdesign } from "react-icons/si";
 import Card from "./Card";
-// import Title from "../layouts/Title";
 
 const Features = ({ title, des }) => {
   return (
@@ -13,7 +12,6 @@ const Features = ({ title, des }) => {
       id="features"
       className="w-full py-14 border-b-[1px] border-b-black"
     >
-      {/* <Title title="Features" des="what I do" /> */}
       <div className="flex flex-col lg:grid-cols-3 md:grid md:grid-cols-2 gap-20">
         <Card
           title="Website Development"
