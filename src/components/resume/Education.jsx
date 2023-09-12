@@ -41,7 +41,7 @@ const Education = () => {
           </p>
           <h2 className="text-4xl font-bold">Certifications</h2>
         </div>
-        <div className="mt-4 md:mt-14 lg:mt-8 w-full  h-[600px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-4 md:mt-14 lg:mt-8 w-full  h-[300px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Certificate of completion"
             subTitle="EkoBits Academy"
