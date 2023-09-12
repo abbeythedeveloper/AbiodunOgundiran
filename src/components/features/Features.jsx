@@ -1,4 +1,5 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React from "react";
 import { AiFillAppstore } from "react-icons/ai";
 import { FaObjectGroup, FaGlobe, FaCode, FaVideo } from "react-icons/fa";
@@ -7,7 +8,7 @@ import Card from "./Card";
 import Title from "../layouts/Title";
 Title;
 
-const Features = () => {
+const Features = ({ title, des }) => {
   return (
     <section
       id="features"
