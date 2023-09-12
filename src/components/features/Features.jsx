@@ -5,6 +5,7 @@ import { FaObjectGroup, FaGlobe, FaCode, FaVideo } from "react-icons/fa";
 import { SiAntdesign } from "react-icons/si";
 import Card from "./Card";
 import Title from "../layouts/Title";
+Title;
 
 const Features = () => {
   return (
