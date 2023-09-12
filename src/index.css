@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Monserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@layer components{
+    .bannerIcon{
+        @apply w-12 h-12 bg-black bg-opacity-25  text-xl text-gray-200 inline-flex items-center justify-center rounded-lg shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
+    }
+    .resumeLi{
+      @apply w-full h-20 bg-black bg-opacity-25 lg:text-xl text-sm md:text-xl text-gray-300 md:flex justify-center flex cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none
+    }
+    .bgOpacity {
+      @apply bg-black bg-opacity-40
+    }
+    .contactInput{
+      @apply w-full h-12 rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 active:outline-none focus-visible:outline-designColor focus-visible:border-b-transparent outline-none duration-300
+    }
+    .contactTextArea{
+      @apply  w-full rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor focus-visible:border-b-transparent outline-none duration-300 resize-none
+    }
+}
+
+.active {
+    color: white;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.white__main {
+    background: rgba(255, 255, 255, 0.479);
+    filter: blur(200px);
+  }
+  .blue__gradient {
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
+  }
+  
+  .pink__gradient {
+    background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+    filter: blur(900px);
+  }
+  
+  .white__gradient {
+    background: rgba(255, 255, 255, 0.884);
+    filter: blur(750px);
+  }
