@@ -27,7 +27,7 @@ import { motion } from "framer-motion";
 const handleDownloadClick = () => {
   // Replace 'your-cv-file.pdf' with the actual file path and name
   const fileUrl =
-    "src/assets/drive-download-20230816T084448Z-001/images/Abiodun Ogundiran CV.png";
+    "https://drive.google.com/file/d/1UtMLFHge2o5VduTE1cSjPlPTKWzYDRQ9/view?usp=drive_link";
 
   // Create a temporary anchor element
   const anchor = document.createElement("a");
