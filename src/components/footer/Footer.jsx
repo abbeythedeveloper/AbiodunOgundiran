@@ -11,7 +11,8 @@ import { logo } from "../../assets/drive-download-20230816T084448Z-001";
 const Footer = () => {
   const handleDownloadClick = () => {
     // Replace 'your-cv-file.pdf' with the actual file path and name
-    const fileUrl = "/path/to/your-cv-file.pdf";
+    const fileUrl =
+      "src/assets/drive-download-20230816T084448Z-001/images/Abiodun's CV.pdf";
 
     // Create a temporary anchor element
     const anchor = document.createElement("a");
