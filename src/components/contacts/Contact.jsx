@@ -80,6 +80,8 @@ const Contact = () => {
                       "outline-designColor"
                     } contactInput`}
                     type="text"
+                    name="name"
+                    autoComplete="on"
                   />
                 </div>
                 <div className="w-full md:w-1/2 flex flex-col gap-4">
@@ -94,6 +96,7 @@ const Contact = () => {
                       "outline-designColor"
                     } contactInput`}
                     type="number"
+                    name="number"
                   />
                 </div>
               </div>
@@ -109,6 +112,8 @@ const Contact = () => {
                     "outline-designColor"
                   } contactInput`}
                   type="email"
+                  autoComplete="on"
+                  name="email"
                 />
               </div>
               <div className="flex flex-col gap-4">
@@ -122,6 +127,8 @@ const Contact = () => {
                     errMsg === "Please give a subject!" && "outline-designColor"
                   } contactInput`}
                   type="text"
+                  name="subject"
+                  autoComplete="on"
                 />
               </div>
               <div className="flex flex-col gap-4">
@@ -137,6 +144,7 @@ const Contact = () => {
                     errMsg === "Message is required" && "outline-designColor"
                   } contactTextArea`}
                   type="text"
+                  name="message"
                 />
               </div>
               <div>
