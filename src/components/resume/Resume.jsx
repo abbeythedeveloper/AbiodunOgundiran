@@ -1,5 +1,7 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React, { useState } from "react";
-import Title from "../layouts/Title";
+import Title from "../layous/Title";
 import Education from "./Education";
 import Skills from "./Skills";
 import Experience from "./Experience";

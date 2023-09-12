@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
-import Title from "../layouts/Title";
+import Title from "../layous/Title";
 import { RiStarFill } from "react-icons/ri";
 import Slider from "react-slick";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";

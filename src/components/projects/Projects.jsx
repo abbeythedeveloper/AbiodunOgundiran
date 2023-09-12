@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import React from "react";
-import Title from "../layouts/Title";
+import Title from "../layous/Title";
 import ProjectCard from "./ProjectCard";
 import {
   img1,
